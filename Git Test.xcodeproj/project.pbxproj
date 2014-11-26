@@ -21,6 +21,7 @@
 		AAF9EC361A260AED00D33BCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF9EC181A260AEC00D33BCC /* UIKit.framework */; };
 		AAF9EC3E1A260AED00D33BCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAF9EC3C1A260AED00D33BCC /* InfoPlist.strings */; };
 		AAF9EC401A260AED00D33BCC /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF9EC3F1A260AED00D33BCC /* Git_TestTests.m */; };
+		AAF9EC4B1A26130400D33BCC /* irTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF9EC4A1A26130400D33BCC /* irTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AAF9EC3B1A260AED00D33BCC /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		AAF9EC3D1A260AED00D33BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAF9EC3F1A260AED00D33BCC /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AAF9EC491A26130400D33BCC /* irTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irTest.h; sourceTree = "<group>"; };
+		AAF9EC4A1A26130400D33BCC /* irTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = irTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				AAF9EC261A260AED00D33BCC /* Main.storyboard */,
 				AAF9EC291A260AED00D33BCC /* irViewController.h */,
 				AAF9EC2A1A260AED00D33BCC /* irViewController.m */,
+				AAF9EC491A26130400D33BCC /* irTest.h */,
+				AAF9EC4A1A26130400D33BCC /* irTest.m */,
 				AAF9EC2C1A260AED00D33BCC /* Images.xcassets */,
 				AAF9EC1B1A260AEC00D33BCC /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				AAF9EC211A260AED00D33BCC /* main.m in Sources */,
 				AAF9EC2B1A260AED00D33BCC /* irViewController.m in Sources */,
+				AAF9EC4B1A26130400D33BCC /* irTest.m in Sources */,
 				AAF9EC251A260AED00D33BCC /* irAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
